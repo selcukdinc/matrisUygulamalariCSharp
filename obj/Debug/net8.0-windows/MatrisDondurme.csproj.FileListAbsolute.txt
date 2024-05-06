@@ -1,0 +1,17 @@
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\bin\Debug\net8.0-windows\MatrisDondurme.exe
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\bin\Debug\net8.0-windows\MatrisDondurme.deps.json
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\bin\Debug\net8.0-windows\MatrisDondurme.runtimeconfig.json
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\bin\Debug\net8.0-windows\MatrisDondurme.dll
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\bin\Debug\net8.0-windows\MatrisDondurme.pdb
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\obj\Debug\net8.0-windows\MatrisDondurme.Form1.resources
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\obj\Debug\net8.0-windows\MatrisDondurme.csproj.GenerateResource.cache
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\obj\Debug\net8.0-windows\MatrisDondurme.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\obj\Debug\net8.0-windows\MatrisDondurme.AssemblyInfoInputs.cache
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\obj\Debug\net8.0-windows\MatrisDondurme.AssemblyInfo.cs
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\obj\Debug\net8.0-windows\MatrisDondurme.csproj.CoreCompileInputs.cache
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\obj\Debug\net8.0-windows\MatrisDondurme.sourcelink.json
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\obj\Debug\net8.0-windows\MatrisDondurme.dll
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\obj\Debug\net8.0-windows\refint\MatrisDondurme.dll
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\obj\Debug\net8.0-windows\MatrisDondurme.pdb
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\obj\Debug\net8.0-windows\MatrisDondurme.genruntimeconfig.cache
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisDondurme\obj\Debug\net8.0-windows\ref\MatrisDondurme.dll

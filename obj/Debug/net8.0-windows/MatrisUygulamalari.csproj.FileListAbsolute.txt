@@ -1,0 +1,17 @@
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\bin\Debug\net8.0-windows\MatrisUygulamalari.exe
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\bin\Debug\net8.0-windows\MatrisUygulamalari.deps.json
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\bin\Debug\net8.0-windows\MatrisUygulamalari.runtimeconfig.json
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\bin\Debug\net8.0-windows\MatrisUygulamalari.dll
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\bin\Debug\net8.0-windows\MatrisUygulamalari.pdb
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\obj\Debug\net8.0-windows\MatrisDondurme.Form1.resources
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\obj\Debug\net8.0-windows\MatrisUygulamalari.csproj.GenerateResource.cache
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\obj\Debug\net8.0-windows\MatrisUygulamalari.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\obj\Debug\net8.0-windows\MatrisUygulamalari.AssemblyInfoInputs.cache
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\obj\Debug\net8.0-windows\MatrisUygulamalari.AssemblyInfo.cs
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\obj\Debug\net8.0-windows\MatrisUygulamalari.csproj.CoreCompileInputs.cache
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\obj\Debug\net8.0-windows\MatrisUygulamalari.sourcelink.json
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\obj\Debug\net8.0-windows\MatrisUygulamalari.dll
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\obj\Debug\net8.0-windows\refint\MatrisUygulamalari.dll
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\obj\Debug\net8.0-windows\MatrisUygulamalari.pdb
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\obj\Debug\net8.0-windows\MatrisUygulamalari.genruntimeconfig.cache
+C:\Users\selcu\Masaüstü\WorkAllDay\EEMuh\II. YY\Görsel Programlama\C#DerstenBağımsızlar\MatrisUygulamaları\obj\Debug\net8.0-windows\ref\MatrisUygulamalari.dll
