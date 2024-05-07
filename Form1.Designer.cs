@@ -30,6 +30,7 @@
         {
             tcMain = new TabControl();
             tabPage1 = new TabPage();
+            cbSeviye = new ComboBox();
             pBoyutlanabilir = new Panel();
             pR = new Panel();
             mtbRMax = new MaskedTextBox();
@@ -52,11 +53,13 @@
             btnSag = new Button();
             btnSol = new Button();
             rtbEkran = new RichTextBox();
+            pDondur = new Panel();
             tcMain.SuspendLayout();
             tabPage1.SuspendLayout();
             pBoyutlanabilir.SuspendLayout();
             pR.SuspendLayout();
             pNotR.SuspendLayout();
+            pDondur.SuspendLayout();
             SuspendLayout();
             // 
             // tcMain
@@ -71,12 +74,11 @@
             // 
             // tabPage1
             // 
+            tabPage1.Controls.Add(pDondur);
             tabPage1.Controls.Add(pBoyutlanabilir);
             tabPage1.Controls.Add(rbMainMatris);
             tabPage1.Controls.Add(rbOrnek);
             tabPage1.Controls.Add(btnBaslat);
-            tabPage1.Controls.Add(btnSag);
-            tabPage1.Controls.Add(btnSol);
             tabPage1.Controls.Add(rtbEkran);
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
@@ -85,6 +87,15 @@
             tabPage1.TabIndex = 0;
             tabPage1.Text = "MD v1";
             tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // cbSeviye
+            // 
+            cbSeviye.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbSeviye.FormattingEnabled = true;
+            cbSeviye.Location = new Point(64, 53);
+            cbSeviye.Name = "cbSeviye";
+            cbSeviye.Size = new Size(91, 23);
+            cbSeviye.TabIndex = 16;
             // 
             // pBoyutlanabilir
             // 
@@ -171,7 +182,7 @@
             // 
             // mtbBaslangic
             // 
-            mtbBaslangic.Location = new Point(152, 9);
+            mtbBaslangic.Location = new Point(161, 6);
             mtbBaslangic.Mask = " 000";
             mtbBaslangic.Name = "mtbBaslangic";
             mtbBaslangic.Size = new Size(32, 21);
@@ -191,7 +202,7 @@
             // cbRandom
             // 
             cbRandom.AutoSize = true;
-            cbRandom.Location = new Point(4, 55);
+            cbRandom.Location = new Point(5, 55);
             cbRandom.Name = "cbRandom";
             cbRandom.Size = new Size(185, 19);
             cbRandom.TabIndex = 20;
@@ -202,7 +213,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(100, 31);
+            label3.Location = new Point(106, 31);
             label3.Name = "label3";
             label3.Size = new Size(45, 15);
             label3.TabIndex = 19;
@@ -211,7 +222,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(108, 31);
+            label2.Location = new Point(114, 31);
             label2.Name = "label2";
             label2.Size = new Size(38, 15);
             label2.TabIndex = 18;
@@ -219,7 +230,7 @@
             // 
             // mtbSutun
             // 
-            mtbSutun.Location = new Point(151, 28);
+            mtbSutun.Location = new Point(166, 28);
             mtbSutun.Mask = "000";
             mtbSutun.Name = "mtbSutun";
             mtbSutun.Size = new Size(32, 21);
@@ -272,7 +283,7 @@
             // 
             // btnBaslat
             // 
-            btnBaslat.Location = new Point(34, 293);
+            btnBaslat.Location = new Point(34, 282);
             btnBaslat.Name = "btnBaslat";
             btnBaslat.Size = new Size(172, 23);
             btnBaslat.TabIndex = 8;
@@ -282,7 +293,7 @@
             // 
             // btnSag
             // 
-            btnSag.Location = new Point(144, 354);
+            btnSag.Location = new Point(133, 21);
             btnSag.Name = "btnSag";
             btnSag.Size = new Size(96, 23);
             btnSag.TabIndex = 2;
@@ -292,7 +303,7 @@
             // 
             // btnSol
             // 
-            btnSol.Location = new Point(8, 354);
+            btnSol.Location = new Point(5, 21);
             btnSol.Name = "btnSol";
             btnSol.Size = new Size(86, 23);
             btnSol.TabIndex = 1;
@@ -307,6 +318,16 @@
             rtbEkran.Size = new Size(950, 606);
             rtbEkran.TabIndex = 0;
             rtbEkran.Text = "";
+            // 
+            // pDondur
+            // 
+            pDondur.Controls.Add(cbSeviye);
+            pDondur.Controls.Add(btnSag);
+            pDondur.Controls.Add(btnSol);
+            pDondur.Location = new Point(8, 311);
+            pDondur.Name = "pDondur";
+            pDondur.Size = new Size(232, 86);
+            pDondur.TabIndex = 17;
             // 
             // Form1
             // 
@@ -330,6 +351,7 @@
             pR.PerformLayout();
             pNotR.ResumeLayout(false);
             pNotR.PerformLayout();
+            pDondur.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -359,5 +381,7 @@
         private MaskedTextBox mtbRMin;
         private MaskedTextBox mtbRMax;
         private Label label5;
+        private ComboBox cbSeviye;
+        private Panel pDondur;
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MatrisUygulamalari")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2dbbd76bc9a2b132e07319b0b7534e87fb073207")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef87c27c5a58f1139c1723cdc46840aa934b778e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MatrisUygulamalari")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MatrisUygulamalari")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
