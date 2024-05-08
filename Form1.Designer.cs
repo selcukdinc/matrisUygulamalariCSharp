@@ -29,8 +29,11 @@
         private void InitializeComponent()
         {
             tcMain = new TabControl();
-            tabPage1 = new TabPage();
+            tpSeviyeli = new TabPage();
+            pDondur = new Panel();
             cbSeviye = new ComboBox();
+            btnSag = new Button();
+            btnSol = new Button();
             pBoyutlanabilir = new Panel();
             pR = new Panel();
             mtbRMax = new MaskedTextBox();
@@ -41,7 +44,7 @@
             lblBaslangicDeg = new Label();
             mtbBaslangic = new MaskedTextBox();
             label1 = new Label();
-            cbRandom = new CheckBox();
+            cbRastgele = new CheckBox();
             label3 = new Label();
             label2 = new Label();
             mtbSutun = new MaskedTextBox();
@@ -50,20 +53,19 @@
             rbMainMatris = new RadioButton();
             rbOrnek = new RadioButton();
             btnBaslat = new Button();
-            btnSag = new Button();
-            btnSol = new Button();
             rtbEkran = new RichTextBox();
-            pDondur = new Panel();
+            tabPage1 = new TabPage();
             tcMain.SuspendLayout();
-            tabPage1.SuspendLayout();
+            tpSeviyeli.SuspendLayout();
+            pDondur.SuspendLayout();
             pBoyutlanabilir.SuspendLayout();
             pR.SuspendLayout();
             pNotR.SuspendLayout();
-            pDondur.SuspendLayout();
             SuspendLayout();
             // 
             // tcMain
             // 
+            tcMain.Controls.Add(tpSeviyeli);
             tcMain.Controls.Add(tabPage1);
             tcMain.Dock = DockStyle.Fill;
             tcMain.Location = new Point(0, 0);
@@ -72,21 +74,32 @@
             tcMain.Size = new Size(1244, 683);
             tcMain.TabIndex = 0;
             // 
-            // tabPage1
+            // tpSeviyeli
             // 
-            tabPage1.Controls.Add(pDondur);
-            tabPage1.Controls.Add(pBoyutlanabilir);
-            tabPage1.Controls.Add(rbMainMatris);
-            tabPage1.Controls.Add(rbOrnek);
-            tabPage1.Controls.Add(btnBaslat);
-            tabPage1.Controls.Add(rtbEkran);
-            tabPage1.Location = new Point(4, 24);
-            tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(1236, 655);
-            tabPage1.TabIndex = 0;
-            tabPage1.Text = "MD v1";
-            tabPage1.UseVisualStyleBackColor = true;
+            tpSeviyeli.BorderStyle = BorderStyle.FixedSingle;
+            tpSeviyeli.Controls.Add(pDondur);
+            tpSeviyeli.Controls.Add(pBoyutlanabilir);
+            tpSeviyeli.Controls.Add(rbMainMatris);
+            tpSeviyeli.Controls.Add(rbOrnek);
+            tpSeviyeli.Controls.Add(btnBaslat);
+            tpSeviyeli.Controls.Add(rtbEkran);
+            tpSeviyeli.Location = new Point(4, 24);
+            tpSeviyeli.Name = "tpSeviyeli";
+            tpSeviyeli.Padding = new Padding(3);
+            tpSeviyeli.Size = new Size(1236, 655);
+            tpSeviyeli.TabIndex = 0;
+            tpSeviyeli.Text = "Seviyeli Matris";
+            tpSeviyeli.UseVisualStyleBackColor = true;
+            // 
+            // pDondur
+            // 
+            pDondur.Controls.Add(cbSeviye);
+            pDondur.Controls.Add(btnSag);
+            pDondur.Controls.Add(btnSol);
+            pDondur.Location = new Point(8, 311);
+            pDondur.Name = "pDondur";
+            pDondur.Size = new Size(232, 86);
+            pDondur.TabIndex = 17;
             // 
             // cbSeviye
             // 
@@ -97,12 +110,32 @@
             cbSeviye.Size = new Size(91, 23);
             cbSeviye.TabIndex = 16;
             // 
+            // btnSag
+            // 
+            btnSag.Location = new Point(133, 21);
+            btnSag.Name = "btnSag";
+            btnSag.Size = new Size(96, 23);
+            btnSag.TabIndex = 2;
+            btnSag.Text = "Sağa Döndür";
+            btnSag.UseVisualStyleBackColor = true;
+            btnSag.Click += btnSag_Click;
+            // 
+            // btnSol
+            // 
+            btnSol.Location = new Point(5, 21);
+            btnSol.Name = "btnSol";
+            btnSol.Size = new Size(86, 23);
+            btnSol.TabIndex = 1;
+            btnSol.Text = "Sola Döndür";
+            btnSol.UseVisualStyleBackColor = true;
+            btnSol.Click += btnSol_Click;
+            // 
             // pBoyutlanabilir
             // 
             pBoyutlanabilir.Controls.Add(pR);
             pBoyutlanabilir.Controls.Add(pNotR);
             pBoyutlanabilir.Controls.Add(label1);
-            pBoyutlanabilir.Controls.Add(cbRandom);
+            pBoyutlanabilir.Controls.Add(cbRastgele);
             pBoyutlanabilir.Controls.Add(label3);
             pBoyutlanabilir.Controls.Add(label2);
             pBoyutlanabilir.Controls.Add(mtbSutun);
@@ -199,16 +232,16 @@
             label1.TabIndex = 23;
             label1.Text = "satır:";
             // 
-            // cbRandom
+            // cbRastgele
             // 
-            cbRandom.AutoSize = true;
-            cbRandom.Location = new Point(5, 55);
-            cbRandom.Name = "cbRandom";
-            cbRandom.Size = new Size(185, 19);
-            cbRandom.TabIndex = 20;
-            cbRandom.Text = "Sayılar Rastgele belirlensin";
-            cbRandom.UseVisualStyleBackColor = true;
-            cbRandom.CheckedChanged += cbRandom_CheckStateChanged;
+            cbRastgele.AutoSize = true;
+            cbRastgele.Location = new Point(5, 55);
+            cbRastgele.Name = "cbRastgele";
+            cbRastgele.Size = new Size(185, 19);
+            cbRastgele.TabIndex = 20;
+            cbRastgele.Text = "Sayılar Rastgele belirlensin";
+            cbRastgele.UseVisualStyleBackColor = true;
+            cbRastgele.CheckedChanged += cbRastgele_CheckStateChanged;
             // 
             // label3
             // 
@@ -291,43 +324,24 @@
             btnBaslat.UseVisualStyleBackColor = true;
             btnBaslat.Click += btnBaslat_Click;
             // 
-            // btnSag
-            // 
-            btnSag.Location = new Point(133, 21);
-            btnSag.Name = "btnSag";
-            btnSag.Size = new Size(96, 23);
-            btnSag.TabIndex = 2;
-            btnSag.Text = "Sağa Döndür";
-            btnSag.UseVisualStyleBackColor = true;
-            btnSag.Click += btnSag_Click;
-            // 
-            // btnSol
-            // 
-            btnSol.Location = new Point(5, 21);
-            btnSol.Name = "btnSol";
-            btnSol.Size = new Size(86, 23);
-            btnSol.TabIndex = 1;
-            btnSol.Text = "Sola Döndür";
-            btnSol.UseVisualStyleBackColor = true;
-            btnSol.Click += btnSol_Click;
-            // 
             // rtbEkran
             // 
+            rtbEkran.BorderStyle = BorderStyle.None;
             rtbEkran.Location = new Point(280, 43);
             rtbEkran.Name = "rtbEkran";
             rtbEkran.Size = new Size(950, 606);
             rtbEkran.TabIndex = 0;
             rtbEkran.Text = "";
             // 
-            // pDondur
+            // tabPage1
             // 
-            pDondur.Controls.Add(cbSeviye);
-            pDondur.Controls.Add(btnSag);
-            pDondur.Controls.Add(btnSol);
-            pDondur.Location = new Point(8, 311);
-            pDondur.Name = "pDondur";
-            pDondur.Size = new Size(232, 86);
-            pDondur.TabIndex = 17;
+            tabPage1.Location = new Point(4, 24);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(1236, 655);
+            tabPage1.TabIndex = 1;
+            tabPage1.Text = "tabPage1";
+            tabPage1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -343,22 +357,22 @@
             Text = "Matris Uygulamaları";
             Load += Form1_Load;
             tcMain.ResumeLayout(false);
-            tabPage1.ResumeLayout(false);
-            tabPage1.PerformLayout();
+            tpSeviyeli.ResumeLayout(false);
+            tpSeviyeli.PerformLayout();
+            pDondur.ResumeLayout(false);
             pBoyutlanabilir.ResumeLayout(false);
             pBoyutlanabilir.PerformLayout();
             pR.ResumeLayout(false);
             pR.PerformLayout();
             pNotR.ResumeLayout(false);
             pNotR.PerformLayout();
-            pDondur.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
 
         private TabControl tcMain;
-        private TabPage tabPage1;
+        private TabPage tpSeviyeli;
         private Button btnBaslat;
         private Button btnSag;
         private Button btnSol;
@@ -367,7 +381,7 @@
         private RadioButton rbOrnek;
         private Panel pBoyutlanabilir;
         private Label label1;
-        private CheckBox cbRandom;
+        private CheckBox cbRastgele;
         private Label label3;
         private Label label2;
         private MaskedTextBox mtbSutun;
@@ -383,5 +397,6 @@
         private Label label5;
         private ComboBox cbSeviye;
         private Panel pDondur;
+        private TabPage tabPage1;
     }
 }

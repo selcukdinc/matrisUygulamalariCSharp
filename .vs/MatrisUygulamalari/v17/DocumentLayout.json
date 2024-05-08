@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\selcu\\Masa\u00FCst\u00FC\\WorkAllDay\\EEMuh\\II. YY\\G\u00F6rsel Programlama\\C#DerstenBa\u011F\u0131ms\u0131zlar\\MatrisUygulamalar\u0131\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52A283E1-51E4-4285-AD71-448F6BFD9E05}|MatrisUygulamalari.csproj|c:\\users\\selcu\\masa\u00FCst\u00FC\\workallday\\eemuh\\ii. yy\\g\u00F6rsel programlama\\c#derstenba\u011F\u0131ms\u0131zlar\\matrisuygulamalar\u0131\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52A283E1-51E4-4285-AD71-448F6BFD9E05}|MatrisUygulamalari.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52A283E1-51E4-4285-AD71-448F6BFD9E05}|MatrisUygulamalari.csproj|c:\\users\\selcu\\masa\u00FCst\u00FC\\workallday\\eemuh\\ii. yy\\g\u00F6rsel programlama\\c#derstenba\u011F\u0131ms\u0131zlar\\matrisuygulamalar\u0131\\seviyelimatris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52A283E1-51E4-4285-AD71-448F6BFD9E05}|MatrisUygulamalari.csproj|solutionrelative:seviyelimatris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52A283E1-51E4-4285-AD71-448F6BFD9E05}|MatrisUygulamalari.csproj|C:\\Users\\selcu\\Masa\u00FCst\u00FC\\WorkAllDay\\EEMuh\\II. YY\\G\u00F6rsel Programlama\\C#DerstenBa\u011F\u0131ms\u0131zlar\\MatrisUygulamalar\u0131\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{52A283E1-51E4-4285-AD71-448F6BFD9E05}|MatrisUygulamalari.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52A283E1-51E4-4285-AD71-448F6BFD9E05}|MatrisUygulamalari.csproj|C:\\Users\\selcu\\Masa\u00FCst\u00FC\\WorkAllDay\\EEMuh\\II. YY\\G\u00F6rsel Programlama\\C#DerstenBa\u011F\u0131ms\u0131zlar\\MatrisUygulamalar\u0131\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52A283E1-51E4-4285-AD71-448F6BFD9E05}|MatrisUygulamalari.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52A283E1-51E4-4285-AD71-448F6BFD9E05}|MatrisUygulamalari.csproj|c:\\users\\selcu\\masa\u00FCst\u00FC\\workallday\\eemuh\\ii. yy\\g\u00F6rsel programlama\\c#derstenba\u011F\u0131ms\u0131zlar\\matrisuygulamalar\u0131\\yazdir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52A283E1-51E4-4285-AD71-448F6BFD9E05}|MatrisUygulamalari.csproj|solutionrelative:yazdir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52A283E1-51E4-4285-AD71-448F6BFD9E05}|MatrisUygulamalari.csproj|c:\\users\\selcu\\masa\u00FCst\u00FC\\workallday\\eemuh\\ii. yy\\g\u00F6rsel programlama\\c#derstenba\u011F\u0131ms\u0131zlar\\matrisuygulamalar\u0131\\baslangic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52A283E1-51E4-4285-AD71-448F6BFD9E05}|MatrisUygulamalari.csproj|solutionrelative:baslangic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52A283E1-51E4-4285-AD71-448F6BFD9E05}|MatrisUygulamalari.csproj|c:\\users\\selcu\\masa\u00FCst\u00FC\\workallday\\eemuh\\ii. yy\\g\u00F6rsel programlama\\c#derstenba\u011F\u0131ms\u0131zlar\\matrisuygulamalar\u0131\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52A283E1-51E4-4285-AD71-448F6BFD9E05}|MatrisUygulamalari.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,31 +30,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 127,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\selcu\\Masa\u00FCst\u00FC\\WorkAllDay\\EEMuh\\II. YY\\G\u00F6rsel Programlama\\C#DerstenBa\u011F\u0131ms\u0131zlar\\MatrisUygulamalar\u0131\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\selcu\\Masa\u00FCst\u00FC\\WorkAllDay\\EEMuh\\II. YY\\G\u00F6rsel Programlama\\C#DerstenBa\u011F\u0131ms\u0131zlar\\MatrisUygulamalar\u0131\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T16:10:41.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\selcu\\Masa\u00FCst\u00FC\\WorkAllDay\\EEMuh\\II. YY\\G\u00F6rsel Programlama\\C#DerstenBa\u011F\u0131ms\u0131zlar\\MatrisUygulamalar\u0131\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\selcu\\Masa\u00FCst\u00FC\\WorkAllDay\\EEMuh\\II. YY\\G\u00F6rsel Programlama\\C#DerstenBa\u011F\u0131ms\u0131zlar\\MatrisUygulamalar\u0131\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACoAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T16:08:47.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "baslangic.cs",
+              "DocumentMoniker": "C:\\Users\\selcu\\Masa\u00FCst\u00FC\\WorkAllDay\\EEMuh\\II. YY\\G\u00F6rsel Programlama\\C#DerstenBa\u011F\u0131ms\u0131zlar\\MatrisUygulamalar\u0131\\baslangic.cs",
+              "RelativeDocumentMoniker": "baslangic.cs",
+              "ToolTip": "C:\\Users\\selcu\\Masa\u00FCst\u00FC\\WorkAllDay\\EEMuh\\II. YY\\G\u00F6rsel Programlama\\C#DerstenBa\u011F\u0131ms\u0131zlar\\MatrisUygulamalar\u0131\\baslangic.cs",
+              "RelativeToolTip": "baslangic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T07:59:06.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "seviyeliMatris.cs",
+              "DocumentMoniker": "C:\\Users\\selcu\\Masa\u00FCst\u00FC\\WorkAllDay\\EEMuh\\II. YY\\G\u00F6rsel Programlama\\C#DerstenBa\u011F\u0131ms\u0131zlar\\MatrisUygulamalar\u0131\\seviyeliMatris.cs",
+              "RelativeDocumentMoniker": "seviyeliMatris.cs",
+              "ToolTip": "C:\\Users\\selcu\\Masa\u00FCst\u00FC\\WorkAllDay\\EEMuh\\II. YY\\G\u00F6rsel Programlama\\C#DerstenBa\u011F\u0131ms\u0131zlar\\MatrisUygulamalar\u0131\\seviyeliMatris.cs",
+              "RelativeToolTip": "seviyeliMatris.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAAAHoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T13:04:55.486Z",
               "EditorCaption": ""
             },
             {
@@ -58,7 +80,21 @@
               "ToolTip": "C:\\Users\\selcu\\Masa\u00FCst\u00FC\\WorkAllDay\\EEMuh\\II. YY\\G\u00F6rsel Programlama\\C#DerstenBa\u011F\u0131ms\u0131zlar\\MatrisUygulamalar\u0131\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T15:34:05.183Z"
+              "WhenOpened": "2024-05-06T15:34:05.183Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "yazdir.cs",
+              "DocumentMoniker": "C:\\Users\\selcu\\Masa\u00FCst\u00FC\\WorkAllDay\\EEMuh\\II. YY\\G\u00F6rsel Programlama\\C#DerstenBa\u011F\u0131ms\u0131zlar\\MatrisUygulamalar\u0131\\yazdir.cs",
+              "RelativeDocumentMoniker": "yazdir.cs",
+              "ToolTip": "C:\\Users\\selcu\\Masa\u00FCst\u00FC\\WorkAllDay\\EEMuh\\II. YY\\G\u00F6rsel Programlama\\C#DerstenBa\u011F\u0131ms\u0131zlar\\MatrisUygulamalar\u0131\\yazdir.cs",
+              "RelativeToolTip": "yazdir.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T07:19:30.675Z",
+              "EditorCaption": ""
             }
           ]
         }
