@@ -9,7 +9,7 @@ namespace MatrisDondurme{
         }
         SeviyeliMatris sm;
         private void Form1_Load(object sender, EventArgs e){
-            sm = new SeviyeliMatris();
+            sm = new SeviyeliMatris(cbSeviye, cbRastgele, rtbEkran, mtbSatir, mtbSutun, mtbRMin, mtbRMax, mtbBaslangic, pNotR, pR, pBoyutlanabilir, pDondur, rbMainMatris);
             Baslangic.matrisDondur(rtbEkran, pDondur, rbMainMatris, cbRastgele);
         }
 

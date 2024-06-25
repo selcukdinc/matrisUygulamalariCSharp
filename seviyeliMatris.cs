@@ -9,7 +9,43 @@ namespace MatrisUygulamalari
 {
     internal class SeviyeliMatris
     {
+        private CheckBox cbRastgele;
+        private ComboBox cbSeviye;
+        private Panel pNotR, pR, pBoyutlanabilir, pDondur;
+        private MaskedTextBox mtbSatir, mtbSutun, mtbRMin, mtbRMax, mtbBaslangic;
+        private RichTextBox rtbEkran;
+        private RadioButton rbMainMatris;
 
+        public SeviyeliMatris(ComboBox _cbSeviye,
+                                CheckBox _cbRastgele,
+                                RichTextBox _rtbEkran,
+                                MaskedTextBox _mtbSatir,
+                                MaskedTextBox _mtbSutun,
+                                MaskedTextBox _mtbRMin,
+                                MaskedTextBox _mtbRMax,
+                                MaskedTextBox _mtbBaslangic,
+                                Panel _pNotR,
+                                Panel _pR,
+                                Panel _pBoyutlanabilir,
+                                Panel _pDondur,
+                                RadioButton _rbMainMatris
+                                )
+        {
+            cbRastgele = _cbRastgele;
+            cbSeviye = _cbSeviye;
+            rtbEkran = _rtbEkran;
+            mtbSatir = _mtbSatir;
+            mtbSutun = _mtbSutun;
+            mtbRMin = _mtbRMin;
+            mtbRMax = _mtbRMax;
+            mtbBaslangic = _mtbBaslangic;
+            pNotR = _pNotR;
+            pR = _pR;
+            pBoyutlanabilir = _pBoyutlanabilir;
+            pDondur = _pDondur;
+            rbMainMatris = _rbMainMatris;
+
+    }
         public int[,] mainMatris; // = new int[3,3] gibi bir tanımlama yapılmadı çünkü 2 boyutlu dizilerde yeniden boyutlandırma yapmak mümkün değil, metot içinde boyutlandırılmalı
         int[,] tempDizi; // döndürüebilmesi için 2. bir diziye ihtiyacımız var
         public int[,] ornekMatris = new int[3, 3]{ // koddun içinde gömülü bir matris olsun diye eklenmiş, döndürmeye katkısı olmayan bir matristir
@@ -21,6 +57,8 @@ namespace MatrisUygulamalari
         public bool mOrnek; // Örnek matris yazdırma durumunda olup olmadığı bilgisi bu değişkende tutulur
         Random R = new Random(); // Rastgele sayılar oluşturulmak istendiği zaman kullanmak için tanımlanması burda yapılmalıdır
 
+        /* Edit 1[26.06.2024]: bir sınıfın kullanılabilmesi için bütün kontrollerin sınıf içinde tanımlanmasına gerek yok!!! 
+         * Formun Load ekranında private bir değişken gibi tanımlanabilir ve o şekilde de kullanılabilir veya metot içinde çağırılıp kullanılabilir
         // Formda bulunan kontrollerin başka bir sınıf içinde kullanılabilmesi için yeniden tanımlanması gerekiyor
         RichTextBox rtbEkran = Application.OpenForms["Form1"].Controls.Find("rtbEkran", true)[0] as RichTextBox; // formun içinde "xyz" ismindeki kontrolü ve altındaki bütün kontrolleri bul ve bulduğun ilk kontrolü (alt kontrol olmayan) RichTextBox şeklinde ver
         ComboBox cbSeviye = Application.OpenForms["Form1"].Controls.Find("cbSeviye", true)[0] as ComboBox;
@@ -35,7 +73,7 @@ namespace MatrisUygulamalari
         Panel pBoyutlanabilir = Application.OpenForms["Form1"].Controls.Find("pBoyutlanabilir", true)[0] as Panel;
         Panel pDondur = Application.OpenForms["Form1"].Controls.Find("pDondur", true)[0] as Panel;
         RadioButton rbMainMatris = Application.OpenForms["Form1"].Controls.Find("rbMainMatris", true)[0] as RadioButton;
-        
+        */
 
         public void cbRastgele_CheckChanged()
         {// kullanıcı matrisin içini rastgele sayılar ile doldurmak istiyor mu?
