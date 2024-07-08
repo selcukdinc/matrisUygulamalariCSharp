@@ -35,6 +35,7 @@
             btnSag = new Button();
             btnSol = new Button();
             pBoyutlanabilir = new Panel();
+            cbSarmal = new CheckBox();
             pR = new Panel();
             mtbRMax = new MaskedTextBox();
             label5 = new Label();
@@ -54,7 +55,6 @@
             rbOrnek = new RadioButton();
             btnBaslat = new Button();
             rtbEkran = new RichTextBox();
-            tabPage1 = new TabPage();
             tcMain.SuspendLayout();
             tpSeviyeli.SuspendLayout();
             pDondur.SuspendLayout();
@@ -65,13 +65,14 @@
             // 
             // tcMain
             // 
+            tcMain.Alignment = TabAlignment.Bottom;
             tcMain.Controls.Add(tpSeviyeli);
-            tcMain.Controls.Add(tabPage1);
-            tcMain.Dock = DockStyle.Fill;
+            tcMain.Dock = DockStyle.Left;
             tcMain.Location = new Point(0, 0);
+            tcMain.Multiline = true;
             tcMain.Name = "tcMain";
             tcMain.SelectedIndex = 0;
-            tcMain.Size = new Size(1244, 683);
+            tcMain.Size = new Size(259, 683);
             tcMain.TabIndex = 0;
             // 
             // tpSeviyeli
@@ -82,11 +83,10 @@
             tpSeviyeli.Controls.Add(rbMainMatris);
             tpSeviyeli.Controls.Add(rbOrnek);
             tpSeviyeli.Controls.Add(btnBaslat);
-            tpSeviyeli.Controls.Add(rtbEkran);
-            tpSeviyeli.Location = new Point(4, 24);
+            tpSeviyeli.Location = new Point(4, 4);
             tpSeviyeli.Name = "tpSeviyeli";
             tpSeviyeli.Padding = new Padding(3);
-            tpSeviyeli.Size = new Size(1236, 655);
+            tpSeviyeli.Size = new Size(251, 655);
             tpSeviyeli.TabIndex = 0;
             tpSeviyeli.Text = "Seviyeli Matris";
             tpSeviyeli.UseVisualStyleBackColor = true;
@@ -96,7 +96,7 @@
             pDondur.Controls.Add(cbSeviye);
             pDondur.Controls.Add(btnSag);
             pDondur.Controls.Add(btnSol);
-            pDondur.Location = new Point(8, 311);
+            pDondur.Location = new Point(8, 363);
             pDondur.Name = "pDondur";
             pDondur.Size = new Size(232, 86);
             pDondur.TabIndex = 17;
@@ -132,6 +132,7 @@
             // 
             // pBoyutlanabilir
             // 
+            pBoyutlanabilir.Controls.Add(cbSarmal);
             pBoyutlanabilir.Controls.Add(pR);
             pBoyutlanabilir.Controls.Add(pNotR);
             pBoyutlanabilir.Controls.Add(label1);
@@ -141,10 +142,20 @@
             pBoyutlanabilir.Controls.Add(mtbSutun);
             pBoyutlanabilir.Controls.Add(mtbSatir);
             pBoyutlanabilir.Controls.Add(lblMatrisBoyutu);
-            pBoyutlanabilir.Location = new Point(8, 42);
+            pBoyutlanabilir.Location = new Point(8, 67);
             pBoyutlanabilir.Name = "pBoyutlanabilir";
-            pBoyutlanabilir.Size = new Size(232, 204);
+            pBoyutlanabilir.Size = new Size(232, 233);
             pBoyutlanabilir.TabIndex = 15;
+            // 
+            // cbSarmal
+            // 
+            cbSarmal.AutoSize = true;
+            cbSarmal.Location = new Point(5, 151);
+            cbSarmal.Name = "cbSarmal";
+            cbSarmal.Size = new Size(110, 19);
+            cbSarmal.TabIndex = 24;
+            cbSarmal.Text = "Sarmal Matris";
+            cbSarmal.UseVisualStyleBackColor = true;
             // 
             // pR
             // 
@@ -199,7 +210,7 @@
             // 
             pNotR.Controls.Add(lblBaslangicDeg);
             pNotR.Controls.Add(mtbBaslangic);
-            pNotR.Location = new Point(5, 151);
+            pNotR.Location = new Point(5, 191);
             pNotR.Name = "pNotR";
             pNotR.Size = new Size(224, 39);
             pNotR.TabIndex = 16;
@@ -305,7 +316,7 @@
             // rbOrnek
             // 
             rbOrnek.AutoSize = true;
-            rbOrnek.Location = new Point(278, 17);
+            rbOrnek.Location = new Point(8, 42);
             rbOrnek.Name = "rbOrnek";
             rbOrnek.Size = new Size(102, 19);
             rbOrnek.TabIndex = 12;
@@ -316,7 +327,7 @@
             // 
             // btnBaslat
             // 
-            btnBaslat.Location = new Point(34, 282);
+            btnBaslat.Location = new Point(34, 334);
             btnBaslat.Name = "btnBaslat";
             btnBaslat.Size = new Size(172, 23);
             btnBaslat.TabIndex = 8;
@@ -327,27 +338,19 @@
             // rtbEkran
             // 
             rtbEkran.BorderStyle = BorderStyle.None;
-            rtbEkran.Location = new Point(280, 43);
+            rtbEkran.Dock = DockStyle.Fill;
+            rtbEkran.Location = new Point(259, 0);
             rtbEkran.Name = "rtbEkran";
-            rtbEkran.Size = new Size(950, 606);
-            rtbEkran.TabIndex = 0;
+            rtbEkran.Size = new Size(985, 683);
+            rtbEkran.TabIndex = 1;
             rtbEkran.Text = "";
-            // 
-            // tabPage1
-            // 
-            tabPage1.Location = new Point(4, 24);
-            tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(1236, 655);
-            tabPage1.TabIndex = 1;
-            tabPage1.Text = "tabPage1";
-            tabPage1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1244, 683);
+            Controls.Add(rtbEkran);
             Controls.Add(tcMain);
             Font = new Font("Georgia", 9F, FontStyle.Regular, GraphicsUnit.Point, 162);
             FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -376,7 +379,6 @@
         private Button btnBaslat;
         private Button btnSag;
         private Button btnSol;
-        private RichTextBox rtbEkran;
         private RadioButton rbMainMatris;
         private RadioButton rbOrnek;
         private Panel pBoyutlanabilir;
@@ -397,6 +399,7 @@
         private Label label5;
         private ComboBox cbSeviye;
         private Panel pDondur;
-        private TabPage tabPage1;
+        private RichTextBox rtbEkran;
+        private CheckBox cbSarmal;
     }
 }

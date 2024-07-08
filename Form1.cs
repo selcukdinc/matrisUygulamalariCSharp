@@ -14,7 +14,6 @@ namespace MatrisDondurme{
         }
 
         #region MatrisDondurme
-
         private void cbRastgele_CheckStateChanged(object sender, EventArgs e){
             sm.cbRastgele_CheckChanged();
         }
