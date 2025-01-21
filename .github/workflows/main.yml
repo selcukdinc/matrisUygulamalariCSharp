@@ -25,7 +25,7 @@ jobs:
       
       - name: Generate SVG
         run: |
-          python .github/workflows/generate_commits.py
+          python generate_commits.py
 
       - name: Commit and Push Changes
         run: |
