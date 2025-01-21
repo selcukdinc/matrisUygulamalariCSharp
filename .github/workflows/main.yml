@@ -50,7 +50,7 @@ jobs:
           # Yeni içeriği oluştur
           branch_info="# Branch Information\n\n"
            # SVG içeriğini ekle
-          new_content="${existing_content}\n\n![Commit History](commits.svg)"
+          new_content="${existing_content}\n${branch_info}\n![Commit History](commits.svg)"
           echo -e "${new_content}" > README.md
         
       - name: Commit and Push README
