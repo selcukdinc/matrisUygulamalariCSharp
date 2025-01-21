@@ -7,3 +7,5 @@ Arayüz tasarımı |1. Seviyenin döndürülmesi [kod şuanda hazır olmadığı
 https://github.com/selcukdinc/matrisUygulamalariCSharp/assets/149238218/3163adc3-9f56-4965-adbc-9a10ec9251d2
 
 ![Commit History](commits.svg)
+
+![Commit History](commits.svg)
