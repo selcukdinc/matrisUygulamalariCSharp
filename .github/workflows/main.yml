@@ -1,0 +1,66 @@
+name: Update README with Commit SVG
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Manuel olarak tetiklemek için
+
+jobs:
+  update-readme-svg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Tüm branch'leri çeker
+
+      - name: Get Commit Data
+        run: |
+          git log --pretty=format:"%ad|%h|%s" --date=format:'%d.%m.%Y' > commits.txt
+
+      - name: Install Python Dependencies
+        run: |
+          pip install matplotlib
+      
+      - name: Generate SVG
+        run: |
+          python generate_commits.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "actions@github.com"
+          git add commits.svg
+          if ! git commit -m "Update SVG with latest commit history"; then
+              if [ $? -ne 0 ]; then
+                  echo "Error during commit"
+                  exit 1
+              else
+                  echo "No changes to commit"
+              fi
+          fi
+          git push origin main
+
+      - name: Update README
+        run: |
+          # Mevcut README içeriğini oku
+          existing_content=$(cat README.md)
+           # SVG içeriğini ekle
+          new_content="${existing_content}\n\n![Commit History](commits.svg)"
+          echo -e "${new_content}" > README.md
+        
+      - name: Commit and Push README
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          if ! git commit -m "Update README with latest commit svg"; then
+            if [ $? -ne 0 ]; then
+                echo "Error during commit"
+                exit 1
+            else
+                echo "No changes to commit"
+            fi
+          fi
+          git push origin main
