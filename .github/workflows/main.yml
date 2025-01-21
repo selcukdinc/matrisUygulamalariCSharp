@@ -44,8 +44,11 @@ jobs:
 
       - name: Update README
         run: |
-          # Mevcut README içeriğini oku
-          existing_content=$(cat README.md)
+          # Mevcut README içeriğini oku, ancak "# Branch Information" ve sonrasını 
+          existing_content=$(awk '/# Branch Information/{exit} {print}' README.md)
+          
+          # Yeni içeriği oluştur
+          branch_info="# Branch Information\n\n"
            # SVG içeriğini ekle
           new_content="${existing_content}\n\n![Commit History](commits.svg)"
           echo -e "${new_content}" > README.md
