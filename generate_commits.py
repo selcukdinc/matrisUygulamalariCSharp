@@ -9,14 +9,14 @@ def generate_svg(commits_file):
 
     with open(commits_file, 'r') as f:
         for commit_data in f:
-            date, hash, message = commit_data.strip().split('|')
-            date_obj = datetime.datetime.strptime(date, '%d.%m.%Y')
-            date_str = date_obj.strftime('%d %b %Y')
-
-            svg_lines.append(f'<circle cx="50" cy="{y_pos}" r="10" fill="darkgreen" />')
-            svg_lines.append(f'<text x="80" y="{y_pos + 5}" font-size="12">{date_str} - {hash} - {message}</text>')
-            y_pos += 30
-
+            parts = commit_data.strip().split('\x1f')
+            if len(parts) >= 3:
+              date, hash, message = parts[0], parts[1], parts[2].split('\n')[0]
+              date_obj = datetime.datetime.strptime(date, '%d.%m.%Y')
+              date_str = date_obj.strftime('%d %b %Y')
+              svg_lines.append(f'<circle cx="50" cy="{y_pos}" r="10" fill="darkgreen" />')
+              svg_lines.append(f'<text x="80" y="{y_pos + 5}" font-size="12">{date_str} - {hash} - {message}</text>')
+              y_pos += 30
     svg_lines.append('</svg>')
     return '\n'.join(svg_lines)
 
