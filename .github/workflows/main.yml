@@ -17,7 +17,7 @@ jobs:
 
       - name: Get Commit Data
         run: |
-          git log --pretty=format:"%ad|%h|%s" --date=format:'%d.%m.%Y' > commits.txt
+          git log --pretty=format:"%ad\x1f%h\x1f%s%n%b" --date=format:'%d.%m.%Y' > commits.txt
 
       - name: Install Python Dependencies
         run: |
@@ -25,7 +25,7 @@ jobs:
       
       - name: Generate SVG
         run: |
-          python generate_commits.py
+          python .github/workflows/generate_commits.py
 
       - name: Commit and Push Changes
         run: |
